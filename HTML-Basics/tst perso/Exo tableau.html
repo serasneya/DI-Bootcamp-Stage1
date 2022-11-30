@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><strong>Coordonnées</strong></title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Coordonnées</legend>
+        <div>
+            <label><strong>Civilité</strong></label>
+            <label for="mademoiselle">Mademoiselle</label>
+            <input type="radio" name="Civilité" id="mademoiselle" value="mademoiselle">
+            <label for="madame">Madame</label>            
+            <input type="radio" name="Civilité" id="madame" value="madame">
+            <label for="monsieur">Monsieur</label>
+            <input type="radio" name="Civilité" id="monsieur" value="monsieur">
+        </div><br>
+        <div>
+            <label><strong>Nom / Prénom</strong></label>
+            <input type="text" name="nomprenom">
+            </label>
+        </div><br>
+        <div>
+            <label for=""><strong>Adresse</strong></label>
+            <textarea name="boitepostale" id="" cols="30" rows="5">Rue N° Boîte postale</textarea>
+        </div><br>
+        <div>
+            <label for=""><strong> code postal/ <br>
+                Localité/ <br>
+                Gouvernorat <br></strong>
+                <input type="text">
+                <input type="text" value="Jendouba">
+                <select name="gouvernorat" id="gouvernorat">
+                    <option value="sahel">SAHEL</option>
+                    <option value="cnord">CENTRE NORD</option>
+                </select>
+        </div><br>
+        <div>
+            <label for="pays"><strong>Pays</strong></label>
+            <select name="pays" id="">
+                <option value="bfa">BURKINA FASO</option>
+                <option value="tunisie">TUNISIE</option>
+                <option value="ghana">GHANA</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="plateforme"><strong>Plateforme</strong></label>
+            <label for="windows">Windows</label>
+            <input type="checkbox" value="windows">
+            <label for="machintosh">Macintosh</label>
+            <input type="checkbox" value="macintosh">
+            <label for="unix">Unix</label>
+            <input type="checkbox" value="unix">
+        </div><br>
+        <div>
+            <label for="application(s)"><strong>Application</strong></label>
+            <select name="applications" id="application">
+                <option value="bureautique">Bureautique</option>
+                <option value="dao">DAO</option>
+                <option value="statistique">Statistique</option>
+                <option value="sgbd">SGBD</option>
+                <option value="internet">Internet</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="submit" value="Soumettre le formulaire">
+            <input type="reset" value="effacer">
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
